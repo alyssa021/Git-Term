@@ -1,8 +1,8 @@
-#!/usr/bin/perl
+#!/usr/bin/bash
 
 if [ -d "./.git" ]; then
   branch=`git branch | grep \\* | cut -d ' ' -f2`;
-  echo $branch;
+  export PS1="$PS1_ORIGINAL($branch) $ ";
 else
-  echo "NOT GIT"
+  export PS1="$PS1_ORIGINAL";
 fi

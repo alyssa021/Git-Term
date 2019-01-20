@@ -14,5 +14,3 @@ $ bash install.sh
 ```
 
 That's it now whenever you'll change your directory to git repository. You'll see branch name appended with the PS1
-
-It currently overrides ``cd`` command and uses ``-d .git`` which is a dirty trick to check git repo.

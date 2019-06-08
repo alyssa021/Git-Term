@@ -1,5 +1,5 @@
 # Git-Term
-Terminal Addon for Git
+Terminal Addon for Git Repositories
 
 # Installation
 

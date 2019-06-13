@@ -14,3 +14,6 @@ $ bash install.sh
 ```
 
 That's it now whenever you'll change your directory to git repository. You'll see branch name appended with the PS1
+
+Also see [Terminal hotness](http://markdotto.com/2012/10/18/terminal-hotness/) by [@mdo](https://github.com/mdo)
+for better approach for the same feature. That is awesome.
